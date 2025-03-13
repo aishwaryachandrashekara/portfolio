@@ -1,7 +1,7 @@
 {
+  "homepage": "https://aishwaryachandrashekara.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/aishwaryachandrashekara/portfolio",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
