@@ -61,7 +61,32 @@ const projectConfig = [
         image: portfolio,
         description: "Source code of my current portfolio web page as data scientist.",
         target: "_blank"
+    },
+    {
+        id: "project-1",
+        title: "Electric Vehicle Data Analysis",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/aishwaryachandrashekara/portfolio",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "fork",
+                url: "https://github.com/aishwaryachandrashekara/portfolio/fork",
+                icon: <BiGitRepoForked/>
+            },
+            {
+                name: "subscription",
+                url: "https://public.tableau.com/app/profile/aishwarya.chandrashekara/viz/Dataanalysisproject_17428342649160/Dashboard1?publish=yes",
+                icon: <AiFillEye/>
+            }
+        ],
+        image: 'https://public.tableau.com/static/images/Da/Dataanalysisproject_17428342649160/Dashboard1/1.png',
+        description: "Features include sales analysis, market penetration, and regional distribution.",
+        target: "_blank"
     }
+
 ]
 
 export default projectConfig
