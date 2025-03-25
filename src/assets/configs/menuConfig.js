@@ -3,6 +3,7 @@ import React from "react";
 import { AiFillCode, AiFillHome, AiOutlineGithub } from "react-icons/ai";
 
 import { BsMedium } from "react-icons/bs";
+import { BsFileEarmarkText } from "react-icons/bs";
 
 const menuConfig = {
   sidebarData: [
@@ -32,6 +33,13 @@ const menuConfig = {
       title: "Skills",
       path: "/skills",
       icon: <AiFillCode size={35} />,
+      className: "nav-text",
+    },
+    {
+      id: "menu-4",
+      title: "Resume",
+      path: "/resume",
+      icon: <BsFileEarmarkText size={35} />,
       className: "nav-text",
     },
   ],
