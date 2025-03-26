@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Typography, Paper } from '@mui/material';
+import { Box, Typography, Paper, Button } from '@mui/material';
+import { BsDownload } from 'react-icons/bs';
 
 const Resume = () => {
     return (
@@ -18,27 +19,40 @@ const Resume = () => {
                         borderRadius: 2
                     }}
                 >
-                    <Typography variant="body1" sx={{ mb: 2 }}>
-                        You can download my resume in PDF format:
-                    </Typography>
+                    <Box sx={{ mb: 3 }}>
+                        <Button
+                            variant="contained"
+                            startIcon={<BsDownload />}
+                            href="/Aishwarya_Chandrashekara's_resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{
+                                backgroundColor: '#2196F3',
+                                '&:hover': {
+                                    backgroundColor: '#1976D2',
+                                }
+                            }}
+                        >
+                            Download Resume
+                        </Button>
+                    </Box>
+                    
                     <Box 
-                        component="a" 
-                        href="/Aishwarya_Chandrashekara's_resume.pdf" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        sx={{
-                            display: 'inline-block',
-                            padding: '10px 20px',
-                            backgroundColor: '#2196F3',
-                            color: 'white',
-                            textDecoration: 'none',
-                            borderRadius: '5px',
-                            '&:hover': {
-                                backgroundColor: '#1976D2',
-                            }
+                        sx={{ 
+                            width: '100%', 
+                            height: '800px',
+                            border: '1px solid #e0e0e0',
+                            borderRadius: 1,
+                            overflow: 'hidden'
                         }}
                     >
-                        Download Resume
+                        <iframe
+                            src="/Aishwarya_Chandrashekara's_resume.pdf"
+                            width="100%"
+                            height="100%"
+                            title="Resume Preview"
+                            style={{ border: 'none' }}
+                        />
                     </Box>
                 </Paper>
             </Box>
