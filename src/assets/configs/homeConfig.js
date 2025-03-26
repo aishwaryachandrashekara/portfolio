@@ -8,7 +8,7 @@ import { FaChartLine, FaDatabase } from "react-icons/fa";
 
 const homeConfig = {
     greeting:
-        <h1 className="heading">
+        <h1 className="greeting-heading" style={{ textAlign: 'center', width: '100%', fontSize: '4rem' }}>
             Hi! I'm <strong className="main-name"> Aishwarya Chandrashekara</strong>
         </h1>,
     titles: [
