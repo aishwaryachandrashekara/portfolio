@@ -2,6 +2,7 @@
   position: relative;
   min-height: 100vh;
   padding-bottom: 6rem;
+  background: linear-gradient(135deg, #e0f2fe 0%, #b3e5fc 50%, #81d4fa 100%);
 }
 
 /* Ensure content is readable over video background */
@@ -12,13 +13,14 @@
 
 .MuiPaper-root {
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(21, 101, 192, 0.3) !important;
+  box-shadow: 0 4px 8px rgba(21, 101, 192, 0.1) !important;
 }
 
 /* Enhance text readability */
 .MuiTypography-root {
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 /* Ensure navbar and footer are visible */
@@ -28,14 +30,28 @@
   z-index: 3;
 }
 
+/* Header styling for better contrast */
+.MuiAppBar-root {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.MuiAppBar-root .MuiListItem-root {
+  transition: all 0.3s ease;
+}
+
+.MuiAppBar-root .MuiListItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+}
+
 /* Typewriter cursor styling */
 .typewriter-cursor {
-  color: #ffffff !important;
+  color: #1565c0 !important;
   font-weight: bold !important;
   font-size: 2.5rem !important;
   font-family: 'Dancing Script', cursive, serif !important;
   font-style: italic !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5) !important;
 }
 
 /* Typewriter text styling */
@@ -43,7 +59,7 @@
   font-family: 'Dancing Script', cursive, serif !important;
   font-size: 2.5rem !important;
   font-weight: bold !important;
-  color: #ffffff !important;
+  color: #1565c0 !important;
   font-style: italic !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5) !important;
 }

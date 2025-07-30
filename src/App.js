@@ -8,7 +8,6 @@ import Skills from './pages/Skills/Skills';
 import Blogs from './pages/Blogs';
 import Resume from './pages/Resume';
 import Footer from './components/Footer/Footer';
-import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo';
 import './App.css';
 
 import React from 'react';
@@ -19,8 +18,7 @@ if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
 
 function App() {
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-            <BackgroundVideo />
+        <Box className="App" sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <Router>
                 <NavBar />
                 <Container sx={{ flex: 1, py: 3 }}>
