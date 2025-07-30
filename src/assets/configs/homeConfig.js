@@ -1,9 +1,4 @@
 import React from 'react'
-import {BsClipboardData} from "react-icons/bs";
-import {DiCodeigniter} from "react-icons/di";
-import {GiCommercialAirplane} from "react-icons/gi";
-import {FaMobileAlt} from "react-icons/fa";
-import { BiRocket } from "react-icons/bi";
 import { FaChartLine, FaDatabase } from "react-icons/fa";
 
 const homeConfig = {
@@ -12,43 +7,42 @@ const homeConfig = {
             Hi! I'm <strong className="main-name"> Aishwarya Chandrashekara</strong>
         </h1>,
     titles: [
-        "A Data Scientist",
-        "A Machine Learning Engineer",
-        "A Data Analyst",
-        "An AI Enthusiast",
-        "A Data Storyteller",
+        "A Product Strategist",
+        "A Customer-Centric Thinker",
+        "An Impact-Oriented Builder",
+        "A Product Growth Enthusiast",
+        "A Data-Driven Decision Maker",
     ],
     about: {
-        start: "I transform complex data into actionable insights through advanced analytics and machine learning. " +
-            "With expertise in statistical modeling, data visualization, and predictive analytics, " +
-            "I help organizations make data-driven decisions. " +
-            "I'm passionate about leveraging AI and machine learning to solve real-world problems " +
-            "and create innovative solutions.",
-        exit: "My technical stack includes Python, SQL, machine learning frameworks, and data visualization tools. " +
-            "I specialize in predictive modeling, statistical analysis, and building scalable data pipelines."
+        start: "I translate complex data and user insights into strategic product decisions that drive business growth. " +
+            "With expertise in product analytics, experimentation, and market research, " +
+            "I bridge the gap between data, technology, and customer needs. " +
+            "I'm passionate about building intuitive, high-impact products that solve real-world problems.",
+        exit: "My toolkit includes SQL, Python, A/B testing frameworks, and product analytics tools like Mixpanel, Amplitude, and Tableau. " +
+            "I specialize in user behavior analysis, roadmap prioritization, and delivering data-informed product strategies."
     },
     workTimeline: [
         {
             id: "work-1",
-            title: "Data Scientist",
-            company: "Bosch",
-            description: "Developed and deployed machine learning models for predictive maintenance, " +
-                "reducing downtime by 25%. Implemented data pipelines for real-time analytics and " +
-                "created interactive dashboards for stakeholders.",
-            date: "2018-2019",
+            title: "Product Analyst",
+            company: "LTIMindtree",
+            description: "At LTIMindtree, I led the development and launch of healthcare MVPs like an insurance claims portal and a physician scheduling tool, reducing claim rejections by 28% and achieving a 97% UAT success rate. " +
+                "I performed SQL analysis on 2.7M+ EHR records to streamline discharge workflows and automated HIPAA reporting using Python, cutting manual effort by 80%. " +
+                "I also built Power BI dashboards and improved telehealth onboarding UX, boosting engagement and registration rates by 18% and 16%, respectively.",
+            date: "2020-2023",
             icon: <FaChartLine/>,
-            tags: ["python", "machine learning", "data visualization", "predictive modeling", "SQL"]
+            tags: ["Cross-functional Collaboration", "A/B Testing", "Power BI", "Stakeholder Management", "Agile", "Telehealth", "Process Automation", "Data-Driven Decision Making"]
         },
         {
-            id: "work-0",
-            title: "Data Analyst",
-            company: "Alpha Technologies",
-            description: "Led data analysis initiatives to optimize business processes, " +
-                "implemented automated reporting systems, and developed statistical models " +
-                "for performance prediction.",
-            date: "2016-2018",
+            id: "work-2",
+            title: "Product Manager",
+            company: "HCL Tech",
+            description: "Led product initiatives to enhance retail operations, including real-time inventory dashboards, unified cart experiences, and return flow redesigns. " +
+                "Worked with cross-functional teams to improve POS systems and in-store workflows, reducing wait times by 28% and inventory mismatches by 35%. " +
+                "Analyzed user behavior using Mixpanel and Amplitude to optimize promotions and layouts.",
+            date: "2024-2025",
             icon: <FaDatabase/>,
-            tags: ["python", "statistical analysis", "data visualization", "business intelligence", "SQL"]
+            tags: ["Cross-Functional Collaboration", "Customer Experience", "A/B Testing", "Agile", "Dashboard Development", "Inventory Optimization"]
         }
     ]
 }

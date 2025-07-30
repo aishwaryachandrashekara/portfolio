@@ -24,25 +24,30 @@ const Home = () => {
                         <Box sx={{ 
                             textAlign: 'center',
                             position: 'relative',
-                            '&::before': {
-                                content: '""',
-                                position: 'absolute',
-                                top: 0,
-                                left: 0,
-                                right: 0,
-                                bottom: 0,
-                                background: 'radial-gradient(circle at center, rgba(33, 150, 243, 0.1) 0%, rgba(33, 203, 243, 0.05) 100%)',
-                                zIndex: -1,
-                            }
+                            // '&::before': {
+                            //     content: '""',
+                            //     position: 'absolute',
+                            //     top: 0,
+                            //     left: 0,
+                            //     right: 0,
+                            //     bottom: 0,
+                            //     background: 'radial-gradient(circle at center, rgba(33, 150, 243, 0.1) 0%, rgba(33, 203, 243, 0.05) 100%)',
+                            //     zIndex: -1,
+                            // }
                         }}>
                             <Typography 
                                 variant="h1" 
+                                style={{
+                                    color: '#F3F4F6',
+    textShadow: '0 2px 8px rgba(0, 0, 0, 0.15)',
+    fontWeight: 800
+                                }}
                                 sx={{ 
                                     fontSize: '3.5em',
                                     fontWeight: 700,
                                     background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
                                     WebkitBackgroundClip: 'text',
-                                    WebkitTextFillColor: 'transparent',
+                                    // WebkitTextFillColor: 'transparent',
                                     mb: 3
                                 }}
                             >
