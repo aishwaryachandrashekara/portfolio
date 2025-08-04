@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.757b2146.css",
-    "main.js": "/static/js/main.ed6df6e3.js",
+    "main.css": "/static/css/main.bf7c89cf.css",
+    "main.js": "/static/js/main.09b4d0b9.js",
     "static/media/sklearn_genetic_opt.png": "/static/media/sklearn_genetic_opt.15b892adf6368a965618.png",
     "static/media/kafkaml.png": "/static/media/kafkaml.5ee10c15934deddbebe6.png",
     "static/media/fastapi_sklearn.png": "/static/media/fastapi_sklearn.0bfaec4cff582eb26751.png",
     "static/media/portfolio.png": "/static/media/portfolio.565c9c29306627d2173d.png",
     "index.html": "/index.html",
-    "main.757b2146.css.map": "/static/css/main.757b2146.css.map",
-    "main.ed6df6e3.js.map": "/static/js/main.ed6df6e3.js.map"
+    "main.bf7c89cf.css.map": "/static/css/main.bf7c89cf.css.map",
+    "main.09b4d0b9.js.map": "/static/js/main.09b4d0b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.757b2146.css",
-    "static/js/main.ed6df6e3.js"
+    "static/css/main.bf7c89cf.css",
+    "static/js/main.09b4d0b9.js"
   ]
 }
