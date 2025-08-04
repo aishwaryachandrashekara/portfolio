@@ -6,9 +6,9 @@ const NavBar = () => {
     return (
         <>
             <AppBar position="fixed" sx={{ 
-                backgroundColor: '#1976d2', 
-                background: 'linear-gradient(135deg, #1976d2 0%, #1565c0 100%)',
-                boxShadow: '0 2px 8px rgba(25, 118, 210, 0.3)',
+                backgroundColor: 'transparent', 
+                background: 'transparent',
+                boxShadow: 'none',
                 zIndex: 1400 
             }}>
                 <Toolbar sx={{ justifyContent: 'start' }}>

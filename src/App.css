@@ -2,7 +2,6 @@
   position: relative;
   min-height: 100vh;
   padding-bottom: 6rem;
-  background: linear-gradient(135deg, #e0f2fe 0%, #b3e5fc 50%, #81d4fa 100%);
 }
 
 /* Ensure content is readable over video background */
@@ -13,14 +12,14 @@
 
 .MuiPaper-root {
   backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.8) !important;
-  border: 1px solid rgba(21, 101, 192, 0.3) !important;
-  box-shadow: 0 4px 8px rgba(21, 101, 192, 0.1) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
 }
 
 /* Enhance text readability */
 .MuiTypography-root {
-  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
 }
 
 /* Ensure navbar and footer are visible */
@@ -32,7 +31,9 @@
 
 /* Header styling for better contrast */
 .MuiAppBar-root {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  background-color: transparent !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .MuiAppBar-root .MuiListItem-root {
@@ -40,7 +41,7 @@
 }
 
 .MuiAppBar-root .MuiListItem-root:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   transform: translateY(-1px);
 }
 
@@ -51,7 +52,7 @@
   font-size: 2.5rem !important;
   font-family: 'Dancing Script', cursive, serif !important;
   font-style: italic !important;
-  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5) !important;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8) !important;
 }
 
 /* Typewriter text styling */
@@ -61,5 +62,5 @@
   font-weight: bold !important;
   color: #1565c0 !important;
   font-style: italic !important;
-  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.5) !important;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.8) !important;
 }
